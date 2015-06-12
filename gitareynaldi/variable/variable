@@ -1,0 +1,16 @@
+$nilai = 10   # pemberian nilai varible
+$nilai1 = 9
+class Siswa    #class pertama
+  def print_global
+     puts "nilai siswa pertama adalah #$nilai"
+  end
+end
+class Siswa2  #class kedua
+  def print_global
+     puts "nilai siswa kedua adalah #$nilai1"
+  end
+end
+
+class1obj = Siswa.new   #pemanggilan class
+class1obj.print_global
+class2obj = Siswa2.new
