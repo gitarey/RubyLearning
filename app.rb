@@ -1,6 +1,1 @@
-require 'sinatra'
-
-get '/' do
-  'Hello World, Hore Hore'
-end
-
+puts 'Hello World'
