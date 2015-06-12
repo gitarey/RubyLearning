@@ -1,10 +1,10 @@
 
-class Sample
-   def hello
-      puts "Hello Ruby!"      #
+class Baru
+   def gita
+      puts "gita reynaldi"      # isi class
    end
 end
 
 # Now using above class to create objects
-object = Sample. new
-object.hello
+object =Baru.new			# pemanggilan class
+object.gita
